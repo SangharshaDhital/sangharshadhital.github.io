@@ -701,7 +701,33 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
- 
+ /* social media icons */
+.contact .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  .contact .social-icons .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    border-radius: 50%;
+    background-color: crimson;
+    color: green;
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact .social-icons .icon:hover {
+    background-color: #d32f2f;
+    transform: scale(1.2);
+  }
+  
 
   }
 
