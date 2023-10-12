@@ -707,6 +707,8 @@ footer span a:hover{
     justify-content: center;
     margin-top: 20px;
     gap: 15px;
+    color: white;
+
   }
   
   .contact .social-icons .icon {
