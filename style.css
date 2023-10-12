@@ -718,7 +718,7 @@ footer span a:hover{
     margin: 5px 10px;
     border-radius: 50%;
     background-color: crimson;
-    color: green;
+    color: white;
     font-size: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
