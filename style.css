@@ -408,10 +408,10 @@ section .title::after {
 }
 
 /* teams section styling */
-.teams .title::after {
+.hobby .title::after {
   content: "what i like";
 }
-.teams .carousel .card {
+.hobby .carousel .card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -419,25 +419,25 @@ section .title::after {
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover {
+.hobby .carousel .card:hover {
   background: crimson;
 }
-.teams .carousel .card .box {
+.hobby .carousel .card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box {
+.hobby .carousel .card:hover .box {
   transform: scale(1.05);
 }
-.teams .carousel .card .text {
+.hobby .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-.teams .carousel .card img {
+.hobby .carousel .card img {
   height: 150px;
   width: 150px;
   object-fit: cover;
@@ -445,7 +445,7 @@ section .title::after {
   border: 5px solid crimson;
   transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img {
+.hobby .carousel .card:hover img {
   border-color: #fff;
 }
 .owl-dots {
