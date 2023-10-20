@@ -778,22 +778,33 @@ footer span a:hover {
   }
   
   /* Add a media query for desktop screens */
-@media (min-width: 501px) {
-  /* Define styles for social media icons on desktop screens */
-  .contact .social-icons .icon {
-    width: 60px;
-    height: 60px;
-    margin: 10px 20px;
-    background-color: crimson ;
-    color: white;
-    font-size: 30px;
-  }
 
-  .contact .social-icons .icon:hover {
-    background-color: #d32f2f ;
-    transform: scale(1.1);
-  }
-  
-}
 
 }
+.contact .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+  color: white;
+}
+
+.contact .social-icons .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px 10px;
+  border-radius: 50%;
+  background-color: crimson !important; /* Increase specificity and add !important */
+  color: white !important; /* Increase specificity and add !important */
+  font-size: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact .social-icons .icon:hover {
+  background-color: #d32f2f !important; /* Increase specificity and add !important */
+  transform: scale(1.2);
+}
+
