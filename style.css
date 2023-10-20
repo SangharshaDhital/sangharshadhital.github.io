@@ -734,5 +734,24 @@ footer span a:hover {
     transform: scale(1.2);
   }
   
+  @media (min-width: 992px) {
+    /* Add your desktop-specific styles here */
+  }
+  
+  @media (min-width: 992px) {
+    .contact .social-icons .icon {
+      width: 60px;
+      height: 60px;
+      margin: 10px 20px;
+      background-color: blue;
+      color: white;
+      font-size: 30px;
+    }
+  
+    .contact .social-icons .icon:hover {
+      background-color: #0074b5;
+      transform: scale(1.1);
+    }
+  }
   
 }
