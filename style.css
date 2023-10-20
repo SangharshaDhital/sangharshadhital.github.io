@@ -706,13 +706,13 @@ footer span a:hover {
     line-height: 38px;
   }
   /* social media icons */
-  /* ..contact .social-icons {
+  .contact .social-icons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 15px;
     color: white;
-  } */
+  } 
   
   .contact .social-icons .icon {
     display: inline-flex;
