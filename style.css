@@ -412,7 +412,7 @@ section .title::after {
   content: "what i like";
 }
 .hobby .carousel .card {
-  background: white;
+  background: 222;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
