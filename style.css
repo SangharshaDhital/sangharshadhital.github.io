@@ -781,6 +781,7 @@ footer span a:hover {
 
 
 }
+}
 .contact .social-icons {
   display: flex;
   justify-content: center;
@@ -808,4 +809,3 @@ footer span a:hover {
   transform: scale(1.2);
 }
 
-}
