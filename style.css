@@ -263,7 +263,7 @@ section .title::after {
 
 /* services section styling */
 .services,
-.teams {
+.hobby {
   color: #fff;
   background: #111;
 }
@@ -274,7 +274,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what i provide";
+  content: "what i like";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
