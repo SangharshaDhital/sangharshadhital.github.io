@@ -264,12 +264,12 @@ section .title::after {
 /* services section styling */
 .services,
 .hobby {
-  color:black;
+  color:#fff;
   background: #111;
 }
 .services .title::before,
 .hobby .title::before {
-  background:white;
+  color:#fff;;
 }
 .services .title::after,
 .hobby .title::after {
