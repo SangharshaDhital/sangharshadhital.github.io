@@ -269,7 +269,7 @@ section .title::after {
 }
 .services .title::before,
 .hobby .title::before {
-  background: #fff;
+  background: black;
 }
 .services .title::after,
 .hobby .title::after {
