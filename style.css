@@ -272,7 +272,7 @@ section .title::after {
   background: #fff;
 }
 .services .title::after,
-.teams .title::after {
+.hobby .title::after {
   background: #111;
   content: "what i like";
 }
