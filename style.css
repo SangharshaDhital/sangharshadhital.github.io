@@ -712,7 +712,7 @@ footer span a:hover {
     margin-top: 20px;
     gap: 15px;
     color: white;
-  } 
+  }
   
   .contact .social-icons .icon {
     display: inline-flex;
@@ -722,15 +722,16 @@ footer span a:hover {
     height: 40px;
     margin: 5px 10px;
     border-radius: 50%;
-    background-color: crimson;
-    color: white;
+    background-color: crimson !important; /* Increase specificity and add !important */
+    color: white !important; /* Increase specificity and add !important */
     font-size: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
   .contact .social-icons .icon:hover {
-    background-color: #d32f2f;
+    background-color: #d32f2f !important; /* Increase specificity and add !important */
     transform: scale(1.2);
   }
+  
   
 }
