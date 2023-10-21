@@ -768,28 +768,27 @@ footer span a:hover {
     justify-content: center;
     margin-top: 20px;
     gap: 15px;
-    color: white;
-  }
-  
-   .contact .social-icons .icon {
+    color: crimson; /* Change the text color to crimson */
+}
+
+.contact .social-icons .icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 60px; /* Increase the width and height for enlargement */
+    height: 60px;
     margin: 5px 10px;
     border-radius: 50%;
-    background-color: crimson !important; /* Increase specificity and add !important */
-    color: white !important; /* Increase specificity and add !important */
-    font-size: 20px;
+    background-color: white !important; /* Reverse the background color to white and add !important */
+    color: crimson !important; /* Reverse the text color to crimson and add !important */
+    font-size: 30px; /* Increase the font size for enlargement */
     transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .contact .social-icons .icon:hover {
-    background-color:white !important; /* Increase specificity and add !important */
-    border:crimson;
-    color:crimson;
+}
+
+.contact .social-icons .icon:hover {
+    background-color: crimson !important; /* Change the hover background color to crimson and add !important */
+    border: white; /* Change the border color to white */
+    color: white; /* Change the text color to white */
     transform: scale(1.2);
-  } 
-  
+}
 }
