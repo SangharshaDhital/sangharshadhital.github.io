@@ -250,9 +250,10 @@ section .title::after {
 
 /* Change the "Hire me" link text on hover */
 .home-content a:hover::after {
-  background-color: none;
-  position: absolute;
-  content: "Thanks for hiring"; /* Add new text content */
+  background-color: transparent; /* Remove the background color */
+  position: absolute; /* Position the pseudo-element absolutely */
+  content: "Thanks for hiring"; /* Change the text content */
+  color: white; /* Change the text color to white */
 }
 
 
