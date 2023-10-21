@@ -251,7 +251,7 @@ section .title::after {
 /* Change the "Hire me" link text on hover */
 .home-content a:hover::after {
   background-color: none; /* Remove the background color */
-  color: crimson;
+  color:white;
   content: " Thanks for hiring"; /* Add new text content */
 }
 
