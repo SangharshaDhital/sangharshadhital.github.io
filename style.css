@@ -760,7 +760,7 @@ footer span a:hover {
   }
   
   .contact .social-icons .icon:hover {
-    background-color: #d32f2f !important; /* Increase specificity and add !important */
+    background-color:white !important; /* Increase specificity and add !important */
     transform: scale(1.2);
   }
   
