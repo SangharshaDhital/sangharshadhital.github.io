@@ -266,7 +266,7 @@ section .title::after {
 .home-content a:hover::after {
   background-color:crimson; /* Change the background color to a shade of green */
   position: absolute; /* Position the pseudo-element absolutely */
-  content: "Thanks for hiring"; /* Change the text content */
+  content: "Your interest is greatly appreciated. "; /* Change the text content */
   color: white; /* Change the text color to white */
   animation: jump 0.5s ease infinite; /* Apply the "jump" animation */
 }
