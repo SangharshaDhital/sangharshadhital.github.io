@@ -242,10 +242,17 @@ section .title::after {
   border: 2px solid crimson;
   transition: all 0.3s ease;
 }
-.home .home-content a:hover {
-  color: crimson;
-  background: none;
+/* Add hover effect to the "Hire me" link */
+.home-content a:hover {
+  background-color: none; /* Remove the background color */
+  color: crimson; /* Change the text color */
 }
+
+/* Change the "Hire me" link text on hover */
+.home-content a:hover::after {
+  content: " Thanks for hiring"; /* Add new text content */
+}
+
 
 /* about section styling */
 .about .title::after {

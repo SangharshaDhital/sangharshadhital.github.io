@@ -42,9 +42,9 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer","Writer","Thinker", "Photographer", "Philoshoper"],
+        strings: ["Developer","Thinker","Analyser"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 55,
         loop: true
     });
 
