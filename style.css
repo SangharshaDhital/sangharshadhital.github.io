@@ -230,56 +230,47 @@ section .title::after {
   color: crimson;
   font-weight: 500;
 }
-
-/* Initial style for the "Hire me" link */
-.home-content .hire-button {
-  display: block;
-  background-color: crimson;
-  color: white;
-  padding: 12px 36px;
-  font-weight: 400;
-  border-radius: 6px;
-  border: 2px solid crimson;
-  text-align: center;
-  font-size: 25px;
-  transition: opacity 0.3s ease;
-}
-
-/* Add hover effect to the "Hire me" link */
-.home-content .hire-button:hover {
-  opacity: 0; /* Make the "Hire me" text disappear on hover */
-  transition: opacity 0.3s ease;
-  animation: jump 0.5s ease infinite; /* Apply the "jump" animation */
-}
-
-/* Initial style for the "Thanks for hiring" box */
-.home-content .hire-box {
-  display: none;
-  text-align: center;
+.home .home-content a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  background-color: crimson;
-  color: white;
   border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+/* Add hover effect to the "Hire me" link */
+.home-content a:hover {
+  background-color: none; /* Remove the background color */
+  color: crimson; /* Change the text color */
 }
 
-/* Add hover effect to show "Thanks for hiring" box */
-.home-content:hover .hire-box {
-  display: block; /* Make the "Thanks for hiring" box appear on hover */
-  transition: display 0.3s ease;
-}
-
+/* Change the "Hire me" link text on hover */
+/* Define a keyframes animation called "jump" */
 @keyframes jump {
-  0%, 100% {
+  0% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
+
+/* Add hover effect to the "Hire me" link */
+.home-content a:hover::after {
+  background-color:crimson; /* Change the background color to a shade of green */
+  position: absolute; /* Position the pseudo-element absolutely */
+  content: "Thanks for hiring"; /* Change the text content */
+  color: white; /* Change the text color to white */
+  animation: jump 0.5s ease infinite; /* Apply the "jump" animation */
+}
+
 
 
 /* about section styling */
