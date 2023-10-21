@@ -249,12 +249,28 @@ section .title::after {
 }
 
 /* Change the "Hire me" link text on hover */
+/* Define a keyframes animation called "jump" */
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Add hover effect to the "Hire me" link */
 .home-content a:hover::after {
-  background-color: rgb(5, 237, 5); /* Remove the background color */
+  background-color: rgb(5, 237, 5); /* Change the background color to a shade of green */
   position: absolute; /* Position the pseudo-element absolutely */
   content: "Thanks for hiring"; /* Change the text content */
   color: white; /* Change the text color to white */
+  animation: jump 0.5s ease infinite; /* Apply the "jump" animation */
 }
+
 
 
 /* about section styling */
