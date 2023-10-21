@@ -250,7 +250,7 @@ section .title::after {
 
 /* Change the "Hire me" link text on hover */
 .home-content a:hover::after {
-  background-color: transparent; /* Remove the background color */
+  background-color: rgb(5, 237, 5); /* Remove the background color */
   position: absolute; /* Position the pseudo-element absolutely */
   content: "Thanks for hiring"; /* Change the text content */
   color: white; /* Change the text color to white */
@@ -262,7 +262,7 @@ section .title::after {
   content: "who i am";
 }
 .about .about-content .left {
-  width: 45%;
+  width: 45%;     
 }
 .about .about-content .left img {
   height: 400px;
