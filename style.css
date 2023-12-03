@@ -787,7 +787,7 @@ footer span a:hover {
 
 .contact .social-icons .icon:hover {
   background-color: crimson !important;
-  color: black !important; /* Change the text color to black or another color that contrasts with crimson */
+  color: white !important;
   border: 1px solid crimson; /* Add border style if needed */
   transform: scale(1.2);
 }
