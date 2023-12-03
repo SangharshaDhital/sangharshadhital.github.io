@@ -786,9 +786,9 @@ footer span a:hover {
 } 
 
 .contact .social-icons .icon:hover {
-    background-color:crimson!important; /* Change the hover background color to crimson and add !important */
-    border:crimson; /* Change the border color to white */
-    color:crimson; /* Change the text color to crimson*/
-    transform: scale(1.2);
+  background-color: crimson !important;
+  color: white !important;
+  border: 1px solid crimson; /* Add border style if needed */
+  transform: scale(1.2);
 }
 }
