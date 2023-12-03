@@ -783,10 +783,10 @@ footer span a:hover {
     color: crimson !important; /* Reverse the text color to crimson and add !important */
     font-size: 30px; /* Increase the font size for enlargement */
     transition: background-color 0.3s ease, transform 0.3s ease;
-}
+} 
 
 .contact .social-icons .icon:hover {
-    background-color: white !important; /* Change the hover background color to crimson and add !important */
+    background-color:crimson!important; /* Change the hover background color to crimson and add !important */
     border:white; /* Change the border color to white */
     color:crimson; /* Change the text color to crimson*/
     transform: scale(1.2);
