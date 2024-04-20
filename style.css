@@ -22,22 +22,22 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 60px; /* Increase the width and height for enlargement */
+  height: 60px;
   margin: 5px 10px;
   border-radius: 50%;
-  background-color:crimson !important; /* Increase specificity and add !important */
-  color: white !important; /* Increase specificity and add !important */
-  font-size: 20px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
+  background-color: white !important; /* Reverse the background color to white and add !important */
+  color: crimson !important; /* Reverse the text color to crimson and add !important */
+  font-size: 30px; /* Increase the font size for enlargement */
+  transition: transform 0.3s ease; /* Apply transition to scale */
+} 
 
 .contact .social-icons .icon:hover {
-  background-color:white !important; /* Increase specificity and add !important */
-  transform: scale(1.2);
+  background-color: crimson !important;
+  color: white !important;
+  border: 1px solid crimson; /* Add border style if needed */
+  transform: scale(.8); /* Adjust scale factor for a smoother effect */
 }
-
-
 
 
 
