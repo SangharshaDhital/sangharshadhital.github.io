@@ -772,23 +772,24 @@ footer span a:hover {
 }
 
 .contact .social-icons .icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px; /* Increase the width and height for enlargement */
-    height: 60px;
-    margin: 5px 10px;
-    border-radius: 50%;
-    background-color: white !important; /* Reverse the background color to white and add !important */
-    color: crimson !important; /* Reverse the text color to crimson and add !important */
-    font-size: 30px; /* Increase the font size for enlargement */
-    transition: background-color 0.3s ease, transform 0.3s ease;
-} 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Enlarged size */
+  height: 60px;
+  margin: 5px 10px;
+  border-radius: 50%;
+  background-color: white !important;
+  color: crimson !important;
+  font-size: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 .contact .social-icons .icon:hover {
   background-color: crimson !important;
   color: white !important;
-  border: 1px solid crimson; /* Add border style if needed */
+  border: 1px solid crimson;
   transform: scale(1.2);
 }
+
 }
